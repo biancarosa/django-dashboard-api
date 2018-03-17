@@ -1,0 +1,85 @@
+Requests      [total, rate]            30000, 1000.03
+Duration      [total, attack, wait]    1m2.929069344s, 29.998999816s, 32.930069528s
+Latencies     [mean, 50, 95, 99, max]  1.163631538s, 269.447µs, 3.604183701s, 31.025156422s, 45.358850893s
+Bytes In      [total, mean]            331660, 11.06
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  10.73%
+Status Codes  [code:count]             200:3220  0:26780  
+Error Set:
+Get http://localhost:8000/users/?format=json: dial tcp 0.0.0.0:0->127.0.0.1:8000: socket: too many open files
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:54419->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:58179->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:46071->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:33805->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:57433->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:38505->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:51757->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:44983->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:58617->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:55909->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:39139->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:42537->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:57107->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:36383->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:40947->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:47975->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:41731->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:47087->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:38807->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:46393->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:33685->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:51575->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:40561->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:32959->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:45589->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:54043->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:50149->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:44475->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:60801->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:55309->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:34777->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:47731->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:36467->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:41391->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:54367->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:58351->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:48031->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:36107->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:46465->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:59447->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:55049->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:55253->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:40813->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:44937->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:54171->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:53355->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:58719->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:33877->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:48815->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:50201->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:57529->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:58759->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:49449->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:60531->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:55189->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:37927->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:52477->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:36163->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:59901->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:55389->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:54615->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:34739->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:46657->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:37641->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:52453->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:51457->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:39893->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:51147->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:54085->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:44997->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:45619->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:42373->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: dial tcp 0.0.0.0:0->127.0.0.1:8000: i/o timeout
+Get http://localhost:8000/users/?format=json: net/http: timeout awaiting response headers
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:34361->127.0.0.1:8000: read: connection reset by peer
+Get http://localhost:8000/users/?format=json: read tcp 127.0.0.1:39727->127.0.0.1:8000: read: connection reset by peer
