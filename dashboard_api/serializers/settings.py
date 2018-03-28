@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from dashboard_core.models import Settings
+from dashboard_api.models import Settings
 
 class SettingsSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
